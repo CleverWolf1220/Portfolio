@@ -5,7 +5,7 @@ function Footer() {
         <div className="mx-16">
           <h2 className="text-white text-lg font-semibold mb-4">About Me</h2>
           <p className="mb-4">
-            👋 Hello there! I'm Mykola, a seasoned web and mobile application
+            👋 Hello there! I am Mykola, a seasoned web and mobile application
             developer with over 6 years of hands-on experience in crafting
             intuitive and efficient digital solutions. My passion lies in
             bringing ideas to life through innovative technologies and seamless
@@ -14,7 +14,7 @@ function Footer() {
           <p className="mb-4">
             💻 My expertise spans across a wide array of front-end and back-end
             technologies, including React, Angular, Vue.js, JavaScript,
-            TypeScript, and Node.js. Whether it's building responsive and
+            TypeScript, and Node.js. Whether it is building responsive and
             dynamic user interfaces or architecting robust server-side
             applications, I thrive in the world of web development.
           </p>
@@ -26,8 +26,8 @@ function Footer() {
             feature-rich applications.
           </p>
           <p className="mb-4">
-            ⚡ Beyond traditional web and mobile development, I'm well-versed in
-            other technologies such as Electron for building desktop
+            ⚡ Beyond traditional web and mobile development, I am well-versed
+            in other technologies such as Electron for building desktop
             applications. I also have experience in integrating AI capabilities
             into projects, including ChatGPT API integration, enhancing user
             interactions and functionality.
@@ -38,10 +38,10 @@ function Footer() {
             visually engaging and responsive across all devices.
           </p>
           <p className="mb-4">
-            ✨ Let's collaborate and turn your ideas into reality! Whether
-            you're looking to build a cutting-edge web application, a sleek
-            mobile app, or anything in between, I'm here to help bring your
-            vision to life with precision and creativity.
+            ✨ Let`s collaborate and turn your ideas into reality! Whether you
+            are looking to build a cutting-edge web application, a sleek mobile
+            app, or anything in between, I am here to help bring your vision to
+            life with precision and creativity.
           </p>
         </div>
       </div>
@@ -53,3 +53,4 @@ function Footer() {
 }
 
 export default Footer;
+
