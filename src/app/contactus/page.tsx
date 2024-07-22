@@ -1,5 +1,6 @@
 "use client";
 import { BackgroundBeams } from "../../components/ui/background-beams";
+import avatar from "../../../public/photo.jpg";
 
 function page() {
   return (
@@ -14,16 +15,47 @@ function page() {
           are reaching out for Tech opportunity or just want to say hello, I
           have got you covered.
         </p>
-        <form
-          action="https://getform.io/f/925bde26-6d3f-4a19-9ef2-c6c0be0a1886"
-          method="POST"
-        >
-          <input
-            type="text"
-            placeholder=""
-            className="h-10 rounded-lg border border-neutral-800 focus:ring-2 focus:ring-teal-500  w-full relative z-10 mt-4  bg-neutral-950 placeholder:text-neutral-700 placeholder:p-2"
-          />
-        </form>
+        <div className="mt-4">
+          <div className="flex items-start bg-gray-800 text-white p-6 rounded-lg shadow-lg max-w-md mx-auto">
+            <img
+              src="/photo.jpg"
+              alt="Chao Wang"
+              className="w-24 h-24 rounded-full mr-4"
+            />
+            <div>
+              <h2 className="text-2xl font-bold mb-4">Contact Information</h2>
+              <div className="mb-2">
+                <span className="font-semibold">Name: </span>
+                <span className="text-blue-400"> Chao Wang</span>
+              </div>
+              <div className="mb-2">
+                <span className="font-semibold">Email: </span>
+                <a
+                  href="mailto:ChaoWang0097@protonmail.com"
+                  className="text-blue-400 hover:underline"
+                >
+                  ChaoWang0097@protonmail.com
+                </a>
+              </div>
+              <div className="mb-2">
+                <span className="font-semibold">Phone:</span>
+                <span className="text-blue-400">+1 (234) 567-8901</span>
+              </div>
+              <div>
+                <span className="font-semibold">Address:</span>
+                <div className="text-blue-400">
+                  Overijsesteenweg 74
+                  <br />
+                  Tervuren
+                  <br />
+                  3080
+                  <br />
+                  Belgium
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
       <BackgroundBeams />
     </div>

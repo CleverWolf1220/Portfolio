@@ -16,7 +16,7 @@ const content = [
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         Web Developer , ELEKS
-        <br /> June 2018 - June 2021
+        <br /> June 2018 - May 2019
       </div>
     ),
   },
@@ -32,26 +32,26 @@ const content = [
     content: (
       <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--cyan-500),var(--emerald-500))] flex items-center justify-center text-white">
         Web&Mobile Engineer , Trinetix
-        <br /> September 2021 - December 2023
+        <br /> September 2019 - August 2021
       </div>
     ),
   },
-  {
-    title: "Senior Frontend Dev, Spotline",
-    description1:
-      "Developed a UI Interface Design in 3 weeks, with sub-page routing and Frontend Animation.",
-    description2:
-      "Integrated Lazy Loading and Shimmer UI which helped improve Website Performance by 148ms",
-    description3:
-      "Gained hands-on experience in real-world software development and created 10+ sub react based Web Pages.",
-    techstack: " React.js, Axios, Redux Tailwind, github",
-    content: (
-      <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
-        Frontend Dev Intern, Spotline
-        <br /> January 24 - Present
-      </div>
-    ),
-  },
+  // {
+  //   title: "Senior Frontend Dev, Spotline",
+  //   description1:
+  //     "Developed a UI Interface Design in 3 weeks, with sub-page routing and Frontend Animation.",
+  //   description2:
+  //     "Integrated Lazy Loading and Shimmer UI which helped improve Website Performance by 148ms",
+  //   description3:
+  //     "Gained hands-on experience in real-world software development and created 10+ sub react based Web Pages.",
+  //   techstack: " React.js, Axios, Redux Tailwind, github",
+  //   content: (
+  //     <div className="h-full w-full bg-[linear-gradient(to_bottom_right,var(--orange-500),var(--yellow-500))] flex items-center justify-center text-white">
+  //       Frontend Dev Intern, Spotline
+  //       <br /> January 24 - Present
+  //     </div>
+  //   ),
+  // },
 ];
 
 function WorkEx() {

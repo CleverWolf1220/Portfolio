@@ -14,7 +14,7 @@ function HeroSection() {
       />
       <div className="p-4 relative z-10 w-full text-center">
         <h1 className="mt-20 md:mt-0 text-4xl md:text-7xl font-bold bg-clip-text text-transparent bg-gradient-to-b from-neutral-50 to-neutral-400">
-          Mykola Mozghovyi
+          Chao Wang
         </h1>
         <div className="mt-2 w-screen h-40 relative -z-10">
           {/* Gradients */}
@@ -40,7 +40,7 @@ function HeroSection() {
               PROFESSIONAL FullStack Developer with Passion for Problem Solving
               (Web & Desktop & App)
             </p>
-            <div className="mt-4">
+            {/* <div className="mt-4">
               <Link href="https://www.upwork.com/freelancers/mykolam39?referrer_url_path=%2Fnx%2Fsearch%2Ftalent%2F">
                 <Button
                   borderRadius="1.75rem"
@@ -49,7 +49,7 @@ function HeroSection() {
                   Checkout Upwork Profile
                 </Button>
               </Link>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

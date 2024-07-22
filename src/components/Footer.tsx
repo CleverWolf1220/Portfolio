@@ -5,11 +5,11 @@ function Footer() {
         <div className="mx-16">
           <h2 className="text-white text-lg font-semibold mb-4">About Me</h2>
           <p className="mb-4">
-            👋 Hello there! I am Mykola, a seasoned web and mobile application
-            developer with over 6 years of hands-on experience in crafting
-            intuitive and efficient digital solutions. My passion lies in
-            bringing ideas to life through innovative technologies and seamless
-            user experiences.
+            👋 Hello there! I am Chao Wang, a seasoned web and mobile
+            application developer with over 6 years of hands-on experience in
+            crafting intuitive and efficient digital solutions. My passion lies
+            in bringing ideas to life through innovative technologies and
+            seamless user experiences.
           </p>
           <p className="mb-4">
             💻 My expertise spans across a wide array of front-end and back-end
@@ -46,11 +46,10 @@ function Footer() {
         </div>
       </div>
       <p className="text-center text-lg pt-8 font-semibold text-white">
-        ⚡© Mykola Mozghovyi™ ⚡
+        ⚡© Chao Wang™ ⚡
       </p>
     </footer>
   );
 }
 
 export default Footer;
-
