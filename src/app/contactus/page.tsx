@@ -37,10 +37,6 @@ function page() {
                   ChaoWang0097@protonmail.com
                 </a>
               </div>
-              <div className="mb-2">
-                <span className="font-semibold">Phone:</span>
-                <span className="text-blue-400">+1 (234) 567-8901</span>
-              </div>
               <div>
                 <span className="font-semibold">Address:</span>
                 <div className="text-blue-400">
